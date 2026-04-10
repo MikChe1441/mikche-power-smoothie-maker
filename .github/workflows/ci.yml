@@ -29,7 +29,7 @@ jobs:
 
     # Install dependencies
     - name: Install the project
-      run: uv sync --frozen
+      run: uv sync --all-extras --dev
 
     # Run tests
     - name: Run tests
